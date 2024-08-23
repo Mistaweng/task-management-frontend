@@ -103,7 +103,6 @@ const Sidebar: React.FC = () => {
           onClick={() => setIsVisible('list')}
         >
           <h1>➕ Create new list</h1>
-          <div className="bg-gray-100 px-2 py-1 rounded-full">L</div>
         </div>
         {isVisible === 'list' && (
           <AddList
@@ -141,7 +140,6 @@ const Sidebar: React.FC = () => {
           onClick={() => setIsVisible('group')}
         >
           <h1>➕ Create new group</h1>
-          <div className="bg-gray-100 px-2 py-1 rounded-full">G</div>
         </div>
         {isVisible === 'group' && (
           <AddGroup
